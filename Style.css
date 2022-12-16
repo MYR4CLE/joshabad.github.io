@@ -57,14 +57,7 @@ footer {
 	width: 800px;
 }
 
-.home {
-	display: flex;
-	width: 10px;
-	margin: 50px 50px;
-	background: #fff;
-	color: #3E2818;
-	border-radius: 4px;
-}
+
 
 .select-menu {
 	width: 450px;
@@ -92,6 +85,7 @@ footer {
 .select-menu.active .select-btn i {
 	transform: rotate(-180deg);
 }
+
 
 .select-menu .options {
 	position: relative;
@@ -133,6 +127,18 @@ footer {
 .option .option-text {
 	font-size: 18px;
 	color: #333;
+}
+
+.select-menu .home i {
+	font-size: 20px;
+	margin-right: 5px;
+	transform: unset;
+}
+
+.select-menu.active .home i {
+	font-size: 20px;
+	margin-right: 5px;
+	transform: unset;
 }
 
 .center {
